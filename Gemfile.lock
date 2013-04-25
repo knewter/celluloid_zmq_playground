@@ -1,24 +1,30 @@
+GIT
+  remote: git://github.com/celluloid/celluloid-zmq.git
+  revision: f4648eb2d2c8ddb586f473ab3a36fcaab1fffca0
+  specs:
+    celluloid-zmq (0.14.0.pre)
+      celluloid (>= 0.13.0)
+      ffi
+      ffi-rzmq
+
+GIT
+  remote: git://github.com/celluloid/celluloid.git
+  revision: cdfab73bdb7df67e1347e064260c13e532165a15
+  specs:
+    celluloid (0.14.0.pre)
+      timers (>= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    celluloid (0.13.0)
-      timers (>= 1.0.0)
-    celluloid-io (0.13.1)
-      celluloid (>= 0.13.0)
-      nio4r (>= 0.4.0)
-    celluloid-zmq (0.13.0)
-      celluloid (>= 0.13.0)
-      celluloid-io (>= 0.13.0)
-      ffi
-      ffi-rzmq
     ffi (1.8.1)
     ffi-rzmq (1.0.1)
       ffi
-    nio4r (0.4.3)
     timers (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  celluloid-zmq
+  celluloid!
+  celluloid-zmq!
